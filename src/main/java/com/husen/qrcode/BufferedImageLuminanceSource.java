@@ -1,4 +1,4 @@
-package com.husen.QRCode;
+package com.husen.qrcode;
 
 import com.google.zxing.LuminanceSource;
 
@@ -9,7 +9,9 @@ import java.awt.image.BufferedImage;
 /**
  * 用于二维码的解析，由Google提供。
  *
- * Created by Eric on 2017/2/15.
+ *
+ * @author Eric
+ * @date 2017/2/15
  */
 public final class BufferedImageLuminanceSource extends LuminanceSource {
 
@@ -33,7 +35,8 @@ public final class BufferedImageLuminanceSource extends LuminanceSource {
         for (int y = top; y < top + height; y++) {
             for (int x = left; x < left + width; x++) {
                 if ((image.getRGB(x, y) & 0xFF000000) == 0) {
-                    image.setRGB(x, y, 0xFFFFFFFF); // = white
+                    // = white
+                    image.setRGB(x, y, 0xFFFFFFFF);
                 }
             }
         }

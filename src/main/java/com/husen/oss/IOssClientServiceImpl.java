@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Date;
 
+/**
+ * @author 11785
+ */
 public class IOssClientServiceImpl implements IOssClientService {
     private OSSClient ossClient;
     public IOssClientServiceImpl() throws IOException {
@@ -19,14 +22,17 @@ public class IOssClientServiceImpl implements IOssClientService {
         ossClient.shutdown();
     }
 
+    @Override
     public String genUrlFromKey(String key) {
         return null;
     }
 
+    @Override
     public String genUrlFromKey(String key, Date date) {
         return null;
     }
 
+    @Override
     public InputStream getDocument(String key) {
         return null;
     }

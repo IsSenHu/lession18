@@ -1,7 +1,7 @@
 package com.husen.servlet;
 
 import com.aliyun.oss.OSSClient;
-import com.husen.Util.VerifyFileType;
+import com.husen.util.VerifyFileType;
 import com.husen.oss.OssConfigure;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadBase;
@@ -25,21 +25,32 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
-/*
+/**
 * @author husen
 * 上传文件到OSS
 * */
 @WebServlet("/upload.do")
-public class UploadToOSSServlet extends HttpServlet {
-    private static Logger logger = LogManager.getLogger(UploadToOSSServlet.class);
+public class UploadToOssServlet extends HttpServlet {
+    private static Logger logger = LogManager.getLogger(UploadToOssServlet.class);
     private static OssConfigure ossConfigure;
-    // 上传文件临时存储目录（文件大于3MB时先存到临时目录）
+    /**
+    * 上传文件临时存储目录（文件大于3MB时先存到临时目录）
+    */
     private static final String UPLOAD_DIRECTORY = "upload";
 
-    // 上传配置
-    private static final int MEMORY_THRESHOLD   = 1024 * 1024 * 1;  // 3MB
-    private static final int MAX_FILE_SIZE      = 1024 * 1024 * 1; // 40MB
-    private static final int MAX_REQUEST_SIZE   = 1024 * 1024 * 4; // 50MB
+
+    /**
+     * 上传配置
+     */
+    private static final int MEMORY_THRESHOLD   = 1024 * 1024 * 1;
+    /**
+     * 40MB
+     */
+    private static final int MAX_FILE_SIZE      = 1024 * 1024 * 1;
+    /**
+     * 50MB
+     */
+    private static final int MAX_REQUEST_SIZE   = 1024 * 1024 * 4;
     private static final String[] TYPES = {"jpg", "png", "gif", "tif", "bmp"};
     static {
         try {

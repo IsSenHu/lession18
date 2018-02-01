@@ -1,4 +1,4 @@
-package com.husen.QRCode;
+package com.husen.qrcode;
 
 import com.google.zxing.common.BitMatrix;
 
@@ -11,7 +11,9 @@ import java.io.OutputStream;
 /**
  *  用于二维码的生成，由Google提供。
  *
- * Created by Eric on 2017/2/15.
+ *
+ * @author Eric
+ * @date 2017/2/15
  */
 public final class MatrixToImageWriter {
 

@@ -3,13 +3,15 @@ package com.husen.oss;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * @author 11785
+ */
 public class OssConfigure {
     private String endpoint;
     private String accessKeyId;
     private String accessKeySecret;
     private String bucketName;
     private String accessUrl;
-
     public OssConfigure() {
 
     }
