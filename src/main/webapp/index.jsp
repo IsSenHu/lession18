@@ -28,6 +28,12 @@
 </style>
 <body>
     <center><h2 style="color: red;">${msg}</h2></center>
+    <center>
+        <div class="center-block">
+            <a style="font-size: 26px;" href="${pageContext.request.contextPath}/work.do">点击这里查看作业二，1题</a><br>
+            <a style="font-size: 26px;" href="${pageContext.request.contextPath}/jstl.jsp">点击这里查看作业二，3题</a>
+        </div>
+    </center>
     <div class="row">
         <div class="col-xs-3"></div>
         <div class="col-xs-6">

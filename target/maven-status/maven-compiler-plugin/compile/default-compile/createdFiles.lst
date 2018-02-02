@@ -1,9 +1,11 @@
-com\husen\servlet\QRCodeServlet.class
 com\husen\oss\IOssClientService.class
-com\husen\servlet\UploadToOSSServlet.class
+com\husen\pojo\User.class
+com\husen\qrcode\QrCodeUtil.class
 com\husen\oss\OssConfigure.class
-com\husen\QRCode\MatrixToImageWriter.class
+com\husen\qrcode\BufferedImageLuminanceSource.class
+com\husen\servlet\WorkServlet.class
+com\husen\qrcode\MatrixToImageWriter.class
+com\husen\util\VerifyFileType.class
+com\husen\servlet\QrCodeServlet.class
 com\husen\oss\IOssClientServiceImpl.class
-com\husen\QRCode\BufferedImageLuminanceSource.class
-com\husen\QRCode\QRCodeUtil.class
-com\husen\Util\VerifyFileType.class
+com\husen\servlet\UploadToOssServlet.class

@@ -1,9 +1,11 @@
+F:\bysj\lession18\src\main\java\com\husen\pojo\User.java
 F:\bysj\lession18\src\main\java\com\husen\oss\IOssClientServiceImpl.java
-F:\bysj\lession18\src\main\java\com\husen\QRCode\MatrixToImageWriter.java
-F:\bysj\lession18\src\main\java\com\husen\QRCode\QRCodeUtil.java
-F:\bysj\lession18\src\main\java\com\husen\servlet\UploadToOSSServlet.java
+F:\bysj\lession18\src\main\java\com\husen\qrcode\MatrixToImageWriter.java
+F:\bysj\lession18\src\main\java\com\husen\qrcode\QrCodeUtil.java
+F:\bysj\lession18\src\main\java\com\husen\servlet\UploadToOssServlet.java
 F:\bysj\lession18\src\main\java\com\husen\oss\IOssClientService.java
-F:\bysj\lession18\src\main\java\com\husen\servlet\QRCodeServlet.java
-F:\bysj\lession18\src\main\java\com\husen\QRCode\BufferedImageLuminanceSource.java
-F:\bysj\lession18\src\main\java\com\husen\Util\VerifyFileType.java
+F:\bysj\lession18\src\main\java\com\husen\servlet\WorkServlet.java
+F:\bysj\lession18\src\main\java\com\husen\servlet\QrCodeServlet.java
+F:\bysj\lession18\src\main\java\com\husen\qrcode\BufferedImageLuminanceSource.java
+F:\bysj\lession18\src\main\java\com\husen\util\VerifyFileType.java
 F:\bysj\lession18\src\main\java\com\husen\oss\OssConfigure.java
